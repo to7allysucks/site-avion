@@ -1,0 +1,9 @@
+@import url(./style.css);
+
+:root {
+    --primary: #2A254B;
+    --secondary: #726E8D;
+    --tertiary: #F9F9F9;
+    --light: #ffffff;
+    --dark: #000000;
+}

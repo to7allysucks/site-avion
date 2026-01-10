@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+                <a href="#"><i class="bi bi-search"></i></a>
+                <a href="#" class="header-logo">Avion</a>
+                <a href="#"><i class="bi bi-cart"></i></a>
+                <a href="#"><i class="bi bi-person-circle"></i></a>
+
+                <hr  class="line">
+
+            <nav class="header-nav">
+                <input id="burger-toggle" type="checkbox">
+                <label for="burger-toggle" class="burger">
+                    <span></span>
+                </label>
+                <ul>
+                    <li>
+                        <a href="#">Plant pots</a>
+                    </li>
+                    <li>
+                        <a href="#">Ceramics</a>
+                    </li>
+                    <li>
+                        <a href="#">Tables</a>
+                    </li>
+                    <li>
+                        <a href="#">Chairs</a>
+                    </li>
+                    <li>
+                        <a href="#">Crockery</a>
+                    </li>
+                    <li>
+                        <a href="#">Tableware</a>
+                    </li>
+                    <li>
+                        <a href="#">Cutlery</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <section class="hero-section">
+                <div class="hero-text">
+                    <h1 class="hero-title">The furniture brand for the future, with timeless designs</h1>
+                    <button class="btn-view btn-view-purp">View collection</button>
+                    <p class="hero-description">A new era in eco friendly furniture with Avelon, the French luxury retail brand
+    with nice fonts, tasteful colors and a beautiful way to display things digitally
+    using modern web technologies.
+                    </div>
+                </div>
+                <img 
+                src="./assets/images/chair.svg" 
+                alt="chair"
+                class="img-chair"
+                />
+        </section>
+            <div class="arguments-wrapper">
+                <h2 class="arguments-title">What makes our brand different</h2>
+                    <div class="card-wrapper">
+                        <i class="bi bi-truck"></i>
+                        <h3 class="card-title">Next day as standard</h3>
+                        <p class="card-description">Order before 3pm and get your order the next day as standard</p>
+                    </div>
+                    <div class="card-wrapper">
+                        <i class="bi bi-check-circle"></i>
+                        <h3 class="card-title">Made by true artisans</h3>
+                        <p class="card-description">Handmade crafted goods made with real passion and craftmanship</p>
+                    </div>
+                    <div class="card-wrapper">
+                        <i class="bi bi-credit-card"></i>
+                        <h3 class="card-title">Unbeatable prices</h3>
+                        <p class="card-description">For our materials and quality you won't find better prices anywhere</p>
+                    </div>
+                    <div class="card-wrapper">
+                        <i class="bi bi-leaf"></i>
+                        <h3 class="card-title">Recycled packaging</h3>
+                        <p class="card-description">We use 100% recycled packaging to ensure our footprint is manageable</p>
+                    </div>
+            </div>
+            <div class="ceramics-wrapper">
+                <h4 class="ceramics-title">New ceramics</h4>
+                <div class="ceramics__card-wrapper">
+                    <img 
+                        src="./assets/images/new_ceramics/img_1.svg" 
+                        alt="chair"
+                        class="img-ceramic"/>
+                    <h3 class="card-title">The Dandy chair</h3>
+                    <p class="price">£250</p>
+                </div>
+                <div class="ceramics__card-wrapper">
+                    <img 
+                        src="./assets/images/new_ceramics/img_2.svg" 
+                        alt="rustic vase"
+                        class="img-ceramic"/>
+                    <h3 class="card-title">Rustic Vase Set</h3>
+                    <p class="price">£155</p>
+                </div>
+                <div class="ceramics__card-wrapper">
+                    <img 
+                        src="./assets/images/new_ceramics/img_3.svg" 
+                        alt="silky vase"
+                        class="img-ceramic"/>
+                    <h3 class="card-title">The Silky Vase</h3>
+                    <p class="price">£125</p>
+                </div>
+                <div class="ceramics__card-wrapper">
+                    <img 
+                        src="./assets/images/new_ceramics/img_4.svg" 
+                        alt="lamp"
+                        class="img-ceramic"/>
+                    <h3 class="card-title">The Lucy Lamp</h3>
+                    <p class="price">£399</p> 
+                </div>
+                <div class="btn">
+                    <button class="btn-view btn-view-alpha">View collection</button>
+                </div>    
+            </div>
+                
+            </div>
+            <div class="products-wrapper">
+                <h4 class="products-title">Our popular products</h4>
+                <div class="ceramics__card-wrapper">
+                    <img 
+                        src="./assets/images/popular_products/large-img_1.svg" 
+                        alt="sofa"
+                        id="sofa"
+                        class="img-product" />
+                    <h3 class="card-title card-title--mobile">The Poplar suede sofa</h3>
+                    <p class="price card-title--mobile">£980</p>
+                </div>
+                <div class="ceramics__card-wrapper" id="chair">
+                    <img 
+                        src="./assets/images/popular_products/img_2.svg" 
+                        alt="chair"
+                        class="img-product"/>
+                    <h3 class="card-title">The Dandy chair</h3>
+                    <p class="price">£250</p>
+                </div>
+                <div class="ceramics__card-wrapper" id="chair-second">
+                    <img 
+                        src="./assets/images/popular_products/img_3.svg" 
+                        alt="chair 2"
+                        class="img-product"/>
+                    <h3 class="card-title">The Dandy chair</h3>
+                    <p class="price">£250</p>
+                </div>
+                <button class="btn btn-view btn-view-alpha btn-fr">View collection</button>
+            </div>
+
+            <div class="invite-wrapper">
+                <div class="text-invite-wrapper">
+                    <h5 class="invite-title">Join the club and get the benefits</h5>
+                    <p class="invite-description">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
+                </div>    
+                <label for="email" class="sign-up-label">
+                    <div class="sign-up-wrapper">
+                        <input type="email" placeholder="your@email.com" class="input-sign-up">
+                        <input value="Sign up" type="submit" class="btn-sign-up">
+                    </div>
+                </label> 
+            </div>
+    </main>
+
+        <div class="our-way-wrapper">
+            <div class="our-way__text">
+                <h2 class="our-way__title">From a studio in London to a global brand with
+over 400 outlets</h2>
+                <p class="our-way__description--start">When we started Avion, the idea was simple. Make high quality furniture
+                    affordable and available for the mass market.</p> 
+                <p class="our-way__description--end">Handmade, and lovingly crafted furniture and homeware is what we live,
+                     breathe and design so our Chelsea boutique become the hotbed for the
+                      London interior design community.</p>
+                <button class="btn-get-in-touch">Get in touch</button>      
+            </div>
+            <img src="./assets/images/image.png" alt="interior" class="img-interior">
+        </div>
+    <footer>
+        <nav class="footer-nav">
+            <ul>Menu
+                <li><a href="#">New arrivals</a></li>
+                <li><a href="#">Best sellers</a></li>
+                <li><a href="#">Recently viewed</a></li>
+                <li><a href="#">Popular this week</a></li>
+                <li><a href="#">All products</a></li>
+            </ul>
+            <ul>Categories
+                <li><a href="#">Crockery</a></li>
+                <li><a href="#">Furniture</a></li>
+                <li><a href="#">Homeware</a></li>
+                <li><a href="#">Plant pots</a></li>
+                <li><a href="#">Chairs</a></li>
+                <li><a href="#">Crockery</a></li>
+            </ul>
+            <ul>Our company
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Vacancies</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Returns policy</a></li>
+            </ul>
+            <ul class="footer__input">Join our mailing list
+                <li id="footer__input">
+                    <div class="sign-up-wrapper">
+                        <input type="email" placeholder="your@email.com" class="input-sign-up input-purp" id="footer__input">
+                        <input value="Sign up" type="submit" class="btn-sign-up btn-sign-up--white">
+                    </div>
+                </li>    
+            </ul>
+        </nav>
+    
+    <hr class="footer__line">
+    <span class="under">Copyright 2022 Avion LTD</span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url(./style.css);
+
+.header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4% 92% 2% 2%;
+    row-gap: 1.5rem;
+    column-gap: 0.4rem;
+    align-items: center;
+    padding: 0rem;
+    margin-top: 1.5rem;
+}
+
+.line {
+    grid-column: span 4;
+    width: 100%;
+    color: #DADADA;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+
+.header-nav {
+    grid-column: span 4;
+    justify-self: stretch;
+    color: var(--secondary)
+}
+
+.header-nav ul li a {
+    color: var(--secondary)
+}
+
+.header-logo {
+    justify-self: center;
+    font-family: 'ClashDisplay';
+    font-size: 2rem;
+    font-weight: 400;
+    color: #22202E;
+    transition: all 0.5s ease;
+}
+
+.header-logo:hover {
+    transform: scale(1.25);
+}
+
+.bi-cart {
+    text-align: left;
+}
+
+.bi-person-circle {
+    text-align: right;
+}
+
+.header-nav ul li{
+    display: inline-block;
+    transition: all 0.4s ease;
+}
+
+.header-nav ul li:hover {
+    transform: scale(1.2);
+}
+
+
+.header-nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+

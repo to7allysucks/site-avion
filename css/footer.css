@@ -1,0 +1,70 @@
+@import url(./style.css);
+
+footer {
+    display: grid;
+    padding: 0rem 0rem 0rem 0rem;
+    background-color: var(--primary);
+}
+
+.footer-nav {
+    display: grid;
+    padding: 2.5rem 3.2rem 2.5rem 4rem;
+    background-color: var(--primary);
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 40.625%;
+    align-items: start;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    color: var(--light);
+    gap: 1rem;
+    font-size: 1.67rem;
+}
+
+.footer-nav ul a {
+    color: var(--light);
+}
+
+.footer-nav ul li {
+    font-size: 1.33rem;
+    transition: all 0.5s ease;
+    display: flex;
+}
+
+.footer-nav ul li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.input-purp {
+    background-color: #4E4D93;
+    color: var(--light );
+    width: 100%;
+}
+
+.btn-sign-up--white {
+    background-color: var(--light);
+    color: var(--primary);
+    width: 100%;
+}
+
+.footer-sign-up-label {
+    color: var(--light)
+}
+
+.footer__line {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    color: var(--primary);
+}
+
+.footer__input {
+    margin-left: 2rem;
+}
+
+.under {
+    margin: 1rem auto 1rem 4rem;
+    color: var(--light);
+}
