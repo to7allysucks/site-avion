@@ -95,6 +95,10 @@ input {
     font-weight: 300;
 }
 
+#footer__input {
+        transform: none;
+    }
+
 #footer__input::placeholder {
     color: var(--light);
     font-weight: 300;
