@@ -59,3 +59,7 @@
 .btn-sign-up:hover {
     cursor: pointer;
 }
+
+.btn-sign-up--white:hover {
+    background-color: rgba(249, 249, 249, 0.80) !important;
+}

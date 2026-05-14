@@ -21,7 +21,7 @@
     max-width: 21.5rem;
     font-size: 1.67rem;
     gap: 0.5rem;
-    transition: all 0.4s ease;
+    transition: all 0.35s ease;
 }
 
 .card-wrapper:hover {

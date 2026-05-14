@@ -68,12 +68,8 @@ button {
     font-family: 'Satoshi';
     font-weight: 300;
     font-size: 1.33rem;
-    transition: all 0.4s ease;
-}
-
-button:hover {
+    transition: all 0.25s ease;
     cursor: pointer;
-    transform: scale(1.1);
 }
 
 img {
@@ -81,11 +77,11 @@ img {
 }
 
 .btn-sign-up {
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
 }
 
 .btn-sign-up:hover {
-    transform: scale(1.1);
+    background-color: #46406f;
 }
 
 input {

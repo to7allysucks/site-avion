@@ -29,13 +29,16 @@ footer {
 
 .footer-nav ul li {
     font-size: 1.33rem;
-    transition: all 0.5s ease;
     display: flex;
 }
 
-.footer-nav ul li:hover {
+.footer-nav ul li a {
+    transition: all 0.25s;
+}
+
+.footer-nav ul li a:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    color: rgba(249, 249, 249, 0.50);
 }
 
 .input-purp {

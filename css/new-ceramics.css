@@ -15,12 +15,8 @@
 .ceramics__card-wrapper {
     display: flex;
     flex-direction: column;
-    transition: all 0.4s ease;
 }
 
-.ceramics__card-wrapper:hover {
-    transform: scale(1.05);
-}
 
 .img-ceramic {
     width: 100%;
